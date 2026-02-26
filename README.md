@@ -21,36 +21,8 @@ Risk level (Low / Medium / High)
 
 Visual probability comparison
 
-📁 Project Structure
-├── customer_churn.ipynb        # Model training notebook
-├── churn_app.py                # Streamlit web application
-├── customer_churn_model.pkl    # Trained XGBoost model
-├── churn_encoders.pkl          # Saved encoders
-├── Telco-Customer-Churn.csv    # Dataset
-├── requirements.txt            # Dependencies
-🛠 Tech Stack
-
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib & Seaborn
-
-Scikit-learn
-
-XGBoost
-
-Imbalanced-learn (SMOTE)
-
-Streamlit
-
-Plotly
-
-Joblib
-
-📊 Dataset Information
+ 
+# Dataset Information
 
 7,043 telecom customer records
 
@@ -60,7 +32,7 @@ Target variable: Churn (Yes/No)
 
 Includes demographic, service, and billing details
 
-⚙️ Machine Learning Approach
+# Machine Learning Approach
 
 Data Cleaning & Preprocessing
 
@@ -88,7 +60,7 @@ Internet Service
 
 Payment Method
 
-🌐 Deployment
+# Deployment
 
 The model is deployed using Streamlit with:
 
@@ -102,7 +74,7 @@ Risk classification
 
 Probability visualization using Plotly
 
-▶️ How to Run Locally
+ # How to Run Locally
 
 Clone the repository:
 
@@ -117,7 +89,7 @@ Run the Streamlit app:
 
 streamlit run churn_app.py
 
-💡 Business Impact
+# Business Impact
 
 This system helps telecom companies:
 
